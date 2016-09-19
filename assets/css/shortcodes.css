@@ -402,3 +402,60 @@
     display: inline-block; 
     margin-top: 40px;
 }
+
+/**/
+.featured-box .one-third {
+    float: left;
+    width: 33.3333333%;
+    padding: 10px 0;
+}
+
+.featured-box .one-third:nth-child(2) {
+    padding: 10px 10px;
+}
+
+.featured-box .one-third .featured-item {
+    min-height: 360px; 
+    padding: 15% 20%;
+}
+
+.featured-box .one-third .featured-item,
+.featured-box .one-third .featured-item h4,
+.featured-box .one-third .featured-item .desc {
+    color: #fff;
+}
+
+.color-1 {
+    background: #a8babc;
+}
+
+.color-2 {
+    background: #a0aa95;
+}
+
+.color-3 {
+    background: #c5c2be;
+}
+
+.height-fix {
+    height: 300px;
+}
+
+.featured-item .number {
+    color: #e1e1e1;
+    font-size: 36px;
+    /*font-family: 'Abel', sans-serif;*/
+    font-weight: normal;
+}
+
+.featured-item.feature-outline.right {
+    position: relative;
+    padding: 0 80px 0 0;
+}
+
+.featured-item.feature-outline.right .icon {
+    position: absolute;
+    top: 0;
+    right: 0; 
+    display: block;
+}

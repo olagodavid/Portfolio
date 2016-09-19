@@ -731,3 +731,132 @@ pre {
     display: inline-block; 
     content: "";
 }
+
+/*==============================================
+ Header
+ ===============================================*/
+/*top-ads*/
+.top-ads {
+    float: right;
+    margin-top: 10px;
+}
+
+/*==============================================
+ Navbar
+ ===============================================*/
+.menuzord {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0; 
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    background: none;
+}
+
+.logo-brand {
+    float: left;
+    height: 50px;
+    margin-right: 30px;
+    color: #666; 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.logo-brand img {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    max-height: 100%;
+    padding: 2px 0;
+}
+
+.menuzord-menu {
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuzord-menu.menuzord-right {
+    float: right;
+}
+
+.menuzord-menu ul.dropdown li a,
+.menuzord-menu > li > .megamenu a,
+.menuzord-menu > li > .megamenu h5 {
+    color: #222;
+}
+
+.menuzord-menu > li > .megamenu h5 {
+    margin-bottom: 20px;
+    padding-left: 10px; 
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.menuzord-menu > li > .megamenu .megamenu-row li a {
+    display: inline-block;
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 12px;
+}
+
+.menuzord-menu a {
+    -webkit-transition: color .3s, background .3s;
+            transition: color .3s, background .3s;
+}
+
+.menuzord-menu.scrollable > .scrollable-fix {
+    display: none;
+}
+
+.menuzord-menu > li {
+    display: inline-block;
+    float: left;
+    margin-left: 2px;
+}
+
+.menuzord-menu > li > a {
+    display: inline-block;
+    padding: 0 12px;
+    text-decoration: none;
+    color: #333; 
+    outline: 0;
+    font-size: 13px;
+    font-weight: normal;
+
+    -webkit-tap-highlight-color: transparent;
+}
+
+.menuzord-menu > li.active > a,
+.menuzord-menu > li:hover > a {
+    color: #333;
+}
+
+.menuzord-menu ul.dropdown,
+.menuzord-menu ul.dropdown li ul.dropdown {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 190px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    white-space: nowrap;
+    background: #fff;
+}
+
+.menuzord-menu ul.dropdown li ul.dropdown {
+    top: -1px; 
+    left: 100%;
+}
+
+.menuzord-menu ul.dropdown li {
+    position: relative; 
+    clear: both;
+    width: 100%;
+    border: 0;
+    font-size: 12px;
+}

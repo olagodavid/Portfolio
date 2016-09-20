@@ -1028,3 +1028,270 @@ dl.toggle.time-line:before {
     background-position: 50% 50%; 
     background-size: cover;
 }
+
+/*------------------------------------------------------------------
+    promo box
+-------------------------------------------------------------------*/
+.promo-box {
+    display: block;
+    width: 100%; 
+    padding: 40px;
+}
+
+.promo-box,
+.text-center .promo-btn,
+.text-center .promo-btn a,
+.full-width.promo-box .container {
+    position: relative;
+}
+
+.promo-box h1,
+.promo-box h2,
+.promo-box h3,
+.promo-box h4,
+.promo-box h5,
+.promo-box h6 {
+    margin-bottom: 0;
+    letter-spacing: 1px; 
+    text-transform: uppercase;
+}
+
+.text-center .promo-btn,
+.text-center .promo-btn a,
+.text-center .promo-info span,
+.text-center .promo-info {
+    display: inline-block;
+}
+
+.promo-info {
+    padding-right: 200px;
+}
+
+.text-center .promo-info {
+    padding-right: 0;
+}
+
+.promo-info h1 span,
+.promo-info h2 span,
+.promo-info h3 span,
+.promo-info h4 span,
+.promo-info h5 span,
+.promo-info h6 span {
+    display: inline; 
+    margin-top: 0;
+}
+
+.promo-info span {
+    display: block;
+    margin-top: 10px;
+    color: #7e7e7e;
+}
+
+.promo-box.gray-bg {
+    background: #f5f5f5;
+}
+
+.promo-box.dark-bg {
+    background: #222;
+}
+
+.light-txt,
+.light-txt p {
+    color: #fff !important;
+}
+
+.round-5 {
+    border-radius: 5px;
+}
+
+.promo-btn {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    margin-top: -28px;
+}
+
+.promo-btn a.btn {
+    margin-right: 0;
+}
+
+.text-center .promo-info span {
+    width: 100%; 
+    margin-bottom: 20px;
+}
+
+.promo-btn a.btn,
+.promo-box a.btn {
+    padding: 15px 30px;
+}
+
+.promo-box.border-box {
+    border: 1px solid #ececec;
+}
+
+.full-width.promo-box {
+    padding: 60px 0;
+}
+
+.full-width.promo-box .promo-btn {
+    right: 0;
+}
+
+.promo-pattern {
+    height: auto; 
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+}
+
+.promo-parallax {
+    height: auto;
+    background-image: url(../img/parallax/promo_para.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+/*------------------------------------------------------------------
+    buttons
+-------------------------------------------------------------------*/
+.btn-large {
+    padding: 20px 40px;
+    font-size: 16px;
+}
+
+.btn-medium {
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.btn-small {
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.btn-extra-small {
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.btn {
+    display: inline-block;
+    margin-right: 20px;
+    /*font-family: 'Abel', sans-serif;*/
+    letter-spacing: 1px;
+    text-transform: uppercase; 
+    border-radius: 0;
+}
+
+/*.btn.focus, .btn:focus, .btn:hover{*/
+/*color: #fff !important;*/
+/*}*/
+.btn.btn-default.focus,
+.btn.btn-default:focus,
+.btn.btn-default:hover {
+    color: #222;
+}
+
+.btn-rounded {
+    border-radius: 4px;
+}
+
+.btn-circle {
+    border-radius: 30px;
+}
+
+/*dark*/
+.dark-bg {
+    background: #1b1b1b;
+}
+
+.btn-dark-solid {
+    color: #fff; 
+    background: #222;
+}
+
+.btn-theme-color,
+.btn-dark-solid:hover,
+.btn-dark-solid:focus,
+.btn-theme-border-color:hover {
+    color: #fff;
+}
+
+.btn-theme-color:hover,
+.btn-theme-color:focus {
+    color: #fff; 
+    background: #000;
+}
+
+.btn-theme-color.light-hover:hover,
+.btn-theme-color.light-hover:focus {
+    color: #222 !important; 
+    background: #fff !important;
+}
+
+.btn-dark-solid.btn-transparent {
+    color: #222; 
+    background: rgba(0, 0, 0, .1);
+}
+
+/*dark border button*/
+.btn-dark-border {
+    color: #222; 
+    border: 1px solid #222;
+    background: transparent;
+}
+
+.btn-dark-border.btn-transparent {
+    color: #222; 
+    border: 1px solid rgba(0, 0, 0, .15);
+    background: transparent;
+}
+
+.btn-dark-border:hover {
+    color: #fff; 
+    border: 1px solid #222;
+    background: #222;
+}
+
+/*light*/
+.btn-light-solid {
+    color: #222; 
+    background: #fff;
+}
+
+.btn-light-solid:hover,
+.btn-light-solid:focus {
+    color: #fff;
+}
+
+.btn-light-solid.btn-transparent {
+    color: #fff; 
+    background: rgba(255, 255, 255, .2);
+}
+
+.btn-dark-solid:hover.btn-transparent:hover {
+    color: #fff !important; 
+    background: #222;
+}
+
+/*light border button*/
+.btn-light-border {
+    color: #fff; 
+    border: 1px solid #fff;
+    background: transparent;
+}
+
+.btn-light-border.btn-transparent {
+    color: #fff; 
+    border: 1px solid rgba(255, 255, 255, .15);
+    background: transparent;
+}
+
+.btn-light-border:hover,
+.btn-light-border:focus {
+    color: #222 !important; 
+    border: 1px solid #fff;
+    background: #fff;
+}

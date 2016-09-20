@@ -459,3 +459,161 @@
     right: 0; 
     display: block;
 }
+
+/*------------------------------------------------------------------
+    accordions
+-------------------------------------------------------------------*/
+.accordion > dt {
+    margin-bottom: 10px;
+    letter-spacing: .2em; 
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.accordion.time-line > dt > a {
+    background: none;
+}
+
+.accordion > dt > a {
+    position: relative;
+    display: block;
+    padding: 14px 20px;
+    text-decoration: none;
+    /*font-family: 'Abel', sans-serif;*/
+    letter-spacing: 2px; 
+    color: #222;
+    border: 1px solid #e8e8e8;
+    background: #e8e8e8;
+}
+
+.accordion > dt > a:hover {
+    text-decoration: none;
+}
+
+.accordion > dt > a:hover,
+.accordion > dt > a.active {
+    cursor: pointer; 
+    color: #fff;
+    border-color: #222;
+    background: #222;
+}
+
+.accordion > dt > a:after {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    margin-top: -8px;
+    content: "\e648";
+    text-align: center;
+    text-transform: none;
+    color: #696969;
+    font-family: "icomoon";
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 15px;
+
+    -webkit-font-smoothing: antialiased; 
+    speak: none;
+}
+
+.accordion > dt > a.active:after,
+.accordion > dt > a.active:hover:after {
+    content: "\e641";
+    color: #fff;
+}
+
+.accordion > dt > a:hover:after {
+    color: #fff;
+}
+
+.accordion > dd {
+    margin-bottom: 10px;
+    padding: 10px 20px 20px;
+    color: #777; 
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.accordion > dt > a,
+.accordion > dt > a:after,
+.toggle > dt > a,
+.toggle > dt > a:after {
+    -webkit-transition: all .27s cubic-bezier(0, 0, .58, 1);
+            transition: all .27s cubic-bezier(0, 0, .58, 1);
+}
+
+/*------------------------------------------------------------------
+    timeline accordions
+-------------------------------------------------------------------*/
+dl.accordion.time-line {
+    position: relative;
+}
+
+dl.accordion.time-line:before {
+    position: absolute;
+    z-index: 0; 
+    top: 25px;
+    bottom: 10px;
+    left: 15px;
+    content: "";
+    border-left: 1px dashed #cecece;
+}
+
+.accordion.time-line > dd {
+    margin-bottom: 10px;
+    padding: 10px 20px 20px 40px;
+    color: #777; 
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.accordion.time-line > dt > a:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    padding-left: 3px; 
+    content: "\e648";
+    text-align: center;
+    text-transform: none;
+    color: #fff;
+    background: #222;
+    font-family: "icomoon";
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 30px;
+
+    -webkit-font-smoothing: antialiased;
+    speak: none;
+}
+
+.accordion.time-line > dt > a.active:after,
+.accordion.time-line > dt > a.active:hover:after {
+    content: "\e641";
+    color: #fff;
+}
+
+.accordion.time-line > dt > a {
+    position: relative;
+    display: block;
+    padding: 14px 20px 14px 40px;
+    text-decoration: none;
+    /*font-family: 'Abel', sans-serif;*/
+    letter-spacing: 2px; 
+    color: #222;
+    border: none;
+}
+
+.accordion.time-line > dt > a:hover,
+.accordion.time-line > dt > a.active {
+    background: none !important;
+}
